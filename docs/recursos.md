@@ -126,6 +126,8 @@ Utilizaremos una librería de NodeJS llamada "youtube-transcript-plus" (https://
 Para probarlo hemos hecho una simulación con hilos en NodeJS para ejecutar el máximo número de peticiones en el menor tiempo posible utilizando la librería de transcripciones de YouTube. Hemos probado con 1000 peticiones en menos de 1 minuto y ha funcionado sin ningún problema. Enlace del repositorio donde se muestra el código utilizado para hacer la simulación:
 https://github.com/TuberIA-App/libraries_apis_testing
 
+![youtube-transcript-plus Library Testing Screenshot](https://raw.githubusercontent.com/TuberIA-App/propuesta_formal/refs/heads/main/docs/images/youtube-transcript-plus-testing-screenshot.png)
+
 A la hora de hacer el test, hemos distinguido entre peticiones exitosas y con error, a la vez que en caso de "éxito" hemos hecho un double check comprobando que efectivamente estamos obteniendo una "trascripción" como respuesta para evitar falsos positivos, de esta forma vemos las peticiones que de verdad nos han dado las transcripciones sin falsos positivos.
 
 En caso que algún momento haya problemas de rate limit con esta librería, se procedería a integrar user agent rotativos para simular distintos dispositivos y si hubiera problemas de IP se procedería a utilizar proxies rotativos.
