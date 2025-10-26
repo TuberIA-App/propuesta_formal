@@ -1,5 +1,85 @@
 # Fase 4
 
+## 1. Recursos humanos:
+
+### Definid roles dentro del equipo (Frontend Lead, Backend Lead, Database Manager, etc.).
+
+#### Website Designer
+
+Será el responsable de definir la estructura visual y funcional de la página web mediante wireframes y prototipos de baja fidelidad.
+
+● Diseñará la distribución de los componentes principales (menú, dashboard, área de usuario, etc.).
+
+● Definirá el flujo de interacción del usuario, priorizando la simplicidad y la conversión.
+
+● Supervisará la coherencia visual, la usabilidad y la consistencia entre las diferentes secciones.
+
+● Colaborará estrechamente con el Frontend Lead para garantizar que el diseño sea técnicamente viable y fiel a la visión del producto.
+
+#### Frontend Lead
+
+Responsable de la implementación de la interfaz de usuario y la experiencia de usuario (UX) general del sistema.
+
+● Desarrollará componentes reutilizables y mantenibles utilizando tecnologías modernas (React + Tailwind CSS).
+
+● Asegurará la calidad del código, siguiendo buenas prácticas y estándares de accesibilidad web.
+
+● Garantizará un rendimiento óptimo en la carga de la página y en la renderización de los vídeos y resúmenes.
+
+● Se encargará de la integración visual con el backend a través de API REST, gestionando correctamente los estados y la interacción en tiempo real.
+
+● Trabajará con el Website Designer para ajustar los diseños y validar la coherencia visual final.
+
+#### Backend Lead
+
+Responsable del diseño, desarrollo y mantenimiento de la lógica del servidor y la comunicación con APIs externas.
+
+● Desarrollará la API principal del sistema utilizando Node.js, Express y servicios de integración con YouTube y modelos de IA.
+
+● Implementará mecanismos de autenticación (JWT), control de errores y logs de rendimiento.
+
+● Gestionará el procesamiento asíncrono de tareas mediante Redis y Bull, optimizando el flujo de transcripciones y resúmenes.
+
+● Velará por la seguridad de los datos y la eficiencia de las operaciones con la base de datos.
+
+● Colaborará con el Database Manager para definir esquemas y garantizar integridad y consistencia de la información.
+
+#### Database Manager
+
+Encargado de la gestión y administración de la base de datos MongoDB, asegurando la integridad, rendimiento y seguridad de los datos almacenados.
+
+● Diseñará los modelos de datos para usuarios, canales, vídeos y resúmenes.
+
+● Implementará índices y optimizaciones para acelerar las consultas más frecuentes.
+
+● Gestionará los backups automáticos y restauraciones en caso de fallo del servidor.
+
+● Supervisará la coherencia entre los datos del backend y las respuestas de la API de YouTube.
+
+● Propondrá estrategias de escalabilidad y mantenimiento de datos antiguos para evitar sobrecarga del sistema.
+
+### Asignad responsabilidades por módulos/funcionalidades.
+
+| Módulo / Funcionalidad | Responsable principal | Colaboradores |
+|------------------------|----------------------|---------------|
+| Diseño de interfaz y wireframes | Website Designer | Frontend Lead |
+| Registro e inicio de sesión de usuarios (JWT) | Backend Lead | Database Manager |
+| Integración con YouTube API y obtención de transcripciones | Backend Lead | Database Manager |
+| Procesamiento y resumen con IA | Backend Lead | Frontend Lead |
+| Gestión de base de datos y backups | Database Manager | Backend Lead |
+| Panel de usuario y visualización de vídeos resumidos | Frontend Lead | Website Designer |
+| Despliegue en VPS y configuración de Docker | Backend Lead | Database Manager, Frontend Lead |
+| Pruebas de usabilidad y diseño final | Website Designer | Frontend Lead |
+
+### Estableced un sistema de comunicación (Discord, Slack, Telegram, etc.).
+
+El equipo utilizará **Discord** como plataforma principal de comunicación, debido a su versatilidad y facilidad de organización por canales.
+
+Además, se programarán reuniones semanales (vía Discord o Google Meet) para revisar avances, asignar nuevas tareas y detectar posibles bloqueos.
+
+Las decisiones técnicas importantes se documentarán en GitHub mediante issues y pull requests, manteniendo así un registro formal del progreso.
+
+
 ## 2. Recursos materiales y tecnológicos:
 
 ### Librerías y frameworks específicos
