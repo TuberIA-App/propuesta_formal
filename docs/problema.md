@@ -48,37 +48,37 @@ Resultados de la encuesta:
 - El 50% de los encuestados utiliza YouTube con frecuencia para aprender o informarse varias veces por semana, un 25% lo hace a diario y otro 25% lo hace ocasionalmente.
 
 <p align="center">
-  <img src="img/encuesta-frecuencia.png" width="500">
+  <img src="images/encuesta-frecuencia.png" width="500">
 </p>
 
 - En cuanto al tiempo disponible el 50% por ciento de los encuestados suele dejar vídeos a medias por falta de tiempo, un 37,5% a veces y un 12,5% no lo hace.
 
 <p align="center">
-  <img src="img/encuesta-tiempo.png" width="500">
+  <img src="images/encuesta-tiempo.png" width="500">
 </p>
 
 - El 62,5% de los participantes indicó que les gustaría disponer de un resumen automático del contenido frente a un 37,5% que no lo ve necesario.
 
 <p align="center">
-  <img src="img/encuesta-resumen.png" width="500">
+  <img src="images/encuesta-resumen.png" width="500">
 </p>
 
 - Respecto al tipo de contenido que más se consume es el formativo con un 62,5%, seguido de un 25% en podcast/divulgación y un 12,5% que no especificaron.
 
 <p align="center">
-  <img src="img/encuesta-contenido.png" width="500">
+  <img src="images/encuesta-contenido.png" width="500">
 </p>
 
 - Para la valoración de este tipo de aplicación se les presentaron cuatro aspectos: ahorro de tiempo, facilidad de uso, precisión de los resúmenes y organización del contenido. El factor de la precisión fue el que más se valoró con un 62,5%, seguido de un 25% por el ahorro de tiempo y un 12,5 por la organización.
 
 <p align="center">
-  <img src="img/encuesta-valor.png" width="500">
+  <img src="images/encuesta-valor.png" width="500">
 </p> 
 
 - Por último, se les preguntó si pagarían una suscripción si el servicio fuera viable y rápido. Un 50% dependería del precio y un 25-25% dijo que sí y que no. 
 
 <p align="center">
-  <img src="img/encuesta-suscripcion.png" width="500">
+  <img src="images/encuesta-suscripcion.png" width="500">
 </p>
 
 En resumen, los resultados confirman que existe la necesidad de optimizar el consumo de vídeos educativos e informativos. La mayoría de los usuarios siente que invierte demasiado tiempo en ver el contenido completo y valora positivamente la posibilidad de contar con una aplicación que les ahorre tiempo de forma automática y precisa. Como punto positivo, el 75% de los encuestados estaría dispuesto a pagar por este servicio.
