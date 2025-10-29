@@ -1,5 +1,78 @@
 # Fase 2
 
+## 1. Análisis de requisitos funcionales
+
+En esta fase vamos a definir las funcionalidades principales que estarán disponibles para el usuario y estableceremos un orden de prioridad para determinar qué elementos son imprescindibles en la primera versión del producto (MVP)
+
+### Funcionalidades principales
+
+1. **Sistema de registro e inicio de sesión**
+El usuario podrá crear una cuenta en la plataforma y acceder a través de su correo electrónico. El sistema permitirá gestionar perfiles, controlar las suscripciones y personalizar la experiencia según los intereses marcados por el usuario
+
+2. **Panel de usuario**
+El panel será el espacio principal del usuario dentro de la aplicación. Desde ahí podrá realizar todas las acciones relacionadas con su cuenta y los contenidos generados. En este panel el usuario podrá:
+   - Visualizar los resúmenes automáticos generados por la aplicación.
+   - Consultar información organizada por canal o por tema
+   - Acceder al resumen completo de cada vídeo junto con la información de este y su enlace.
+   - Guardar, eliminar o volver a ver resúmenes anteriores.
+   - Gestionar la cuenta.
+
+3. **Notificaciones automáticas**
+Cuando los canales seguidos publiquen un nuevo vídeo la aplicación notificará al usuario. Estas notificaciones se recibirán por correo electrónico o en la misma plataforma.
+
+4. **Gestión de suscripción**
+En la primera versión el servicio será gratuito por lo que no se restringirá ninguna opción al usuario en las funciones básicas presentadas. En futuras implementaciones si se incorporará un sistema de suscripción que ofrecerá servicios o beneficios adicionales.
+
+### Priorización de funcionalidades (Método MoSCoW)
+
+El método MoSCoW es una técnica usada en la gestión de proyectos para priorizar funcionalidades, sobre todo en metodologías ágiles. Sus siglas indican: Must Have, Should Have, Could Have, Won't Have. Con esto se trata de ordenar qué debe ir en el MVP, lo que se puede añadir después, lo que podría tener opcionalmente y cosas que se descartan por el momento.
+
+**Must Have (Debe tener)**
+
+Funciones principales que va a tener el proyecto: 
+
+- Registro e inicio de sesión de usuarios
+- Transcripción y resumen del contenido mediante IA
+- Panel de usuario para visualizar los resultados
+
+**Should Have (Debería tener)**
+
+Estas aportarían valor añadido y mejorarían la experiencia del usuario:
+
+- Notificaciones automáticas por correo o dentro de la plataforma
+- Historial de resúmenes consultados
+- Posibilidad de exportar los resúmenes en PDF
+
+**Could Have (Podría tener)**
+
+Funciones que podrían añadirse posteriormente dependiendo del tiempo y recursos disponibles:
+
+- Personalización del formato de los resúmenes
+- Interfaz con temas o modo oscuro/claro
+- Recomendaciones de canales similares
+- Notificaciones por whatsapp, telegram, etc.
+- Panel de administrador
+
+**Won’t Have (No tendrá por ahora)**
+
+Funciones pensadas pero que de momento se quedan fuera del proyecto:
+
+- Chat o interacción entre usuarios
+- Integración con plataformas externas
+
+
+En conclusión, este método nos ha permitido definir de manera clara qué elementos vamos a incluir en nuestro MVP y cuales se irán incorporando a medida que éste vaya avanzando, dejando algunas ideas reservadas si hubiese tiempo.
+
+### MVP (Producto mínimo viable)
+
+El MVP consistirá en una versión funcional básica de la aplicación que permita comprobar la viabilidad técnica y la aceptación del servicio por parte de los usuarios. En esta primera versión el usuario podrá:
+
+*Registrarse e iniciar sesión → Buscar y seguir canales de YouTube desde la plataforma → Detectar automáticamente nuevos vídeos de esos canales → Recibir la transcripción y el resumen del contenido generados por la IA → Consultar los resultados en su panel personal*
+
+Estas funciones permiten validar las partes importantes del proyecto: la integración con la API de YouTube, el procesamiento automático con IA y la organización de contenido en el panel del usuario.
+
+El MVP servirá como base para validar la utilidad del proyecto y recopilar información real que permita ajustar las siguientes fases del desarrollo.
+
 ## 2. Análisis de requisitos técnicos:
 
 ### Frontend (React): ¿Qué bibliotecas adicionales necesitaréis? (routing, state management, UI components, etc.)
