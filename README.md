@@ -20,26 +20,26 @@ TuberIA es una plataforma web que utiliza inteligencia artificial para **automat
 
 Toda la documentación está organizada en el directorio [`docs/`](docs/):
 
-### 📋 [Fase 1: Identificación del Problema](docs/problema.md)
+### 📋 [Fase 1: Detección del problema](docs/problema.md)
 - Propuesta del proyecto y necesidad detectada
 - Investigación con encuestas y análisis de usuarios
 - Definición de usuarios objetivo
 - Análisis de competencia (Eightify, Notta.ai, Glasp)
 - Casos de uso principales
 
-### 🎯 [Fase 3: Objetivos y Alcance](docs/objetivos-alcance.md)
-- Objetivos SMART del MVP (45 días)
-- Métricas de éxito (técnicas, funcionales, usuario)
-- Delimitación clara: qué incluye y qué NO incluye el MVP
-- Posibles ampliaciones futuras
-
-### 🔧 [Viabilidad Técnica](docs/viabilidad-tecnica.md)
+### 🔧 [Fase 2: Estudio de viabilidad técnica](docs/viabilidad-tecnica.md)
 - Arquitectura del sistema planificada
 - Stack tecnológico seleccionado
 - Pruebas de concepto realizadas
 - Diagramas técnicos
 
-### 👥 [Fase 4: Recursos](docs/recursos.md)
+### 🎯 [Fase 3: Definición de objetivos y alcance](docs/objetivos-alcance.md)
+- Objetivos SMART del MVP (45 días)
+- Métricas de éxito (técnicas, funcionales, usuario)
+- Delimitación clara: qué incluye y qué NO incluye el MVP
+- Posibles ampliaciones futuras
+
+### 👥 [Fase 4: Planificación de recursos](docs/recursos.md)
 - Roles del equipo (Website Designer, Frontend Lead, Backend Lead, Database Manager)
 - Responsabilidades por módulos
 - Stack tecnológico detallado (Frontend: React+Vite, Backend: Node.js+Express)
@@ -165,4 +165,4 @@ Evidencia adicional: Análisis de comunidades en Reddit confirmó usuarios usand
 
 ---
 
-**TuberIA** | Proyecto en fase de planificación | 2025
+**TuberIA** | Proyecto en fase de planificación | 2025 | Equipo 1 | 2ºDAW
